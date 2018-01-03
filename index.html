@@ -11,10 +11,28 @@
 	    height: 100%; 
 	    background-position: center;
 	    background-repeat: no-repeat;
+	    /* this will stretch to 100% top and bottom but doesn't look good */
 	    /*background-size: 100% 100%;*/
 	    background-size: cover;
 	    background-attachment: fixed;
 	}
+
+	.banner {
+	    background: url(https://image.ibb.co/kvCTMb/Gin_Tama_full_1594439.jpg) center center no-repeat;
+	    background-size: cover;
+	    height: 100%;
+	}
+
+	.bg:before {
+	    content: '';
+	    position: absolute;
+	    top: 0;
+	    bottom: 0;
+	    right: 0;
+	    left: 0;
+	    background: rgba(248, 247, 216, 0.7);
+  	}
+
 	</style>
 
 	<head>
@@ -34,7 +52,7 @@
 		</nav>
 
 		<h1>Web of Grayce</h1>
-		<img src='https://image.ibb.co/kvCTMb/Gin_Tama_full_1594439.jpg' style='width:100%' alt='[]' />
+		<img src='https://image.ibb.co/kvCTMb/Gin_Tama_full_1594439.jpg' style='width:100%;height:auto' alt='[]' />
 
 		<div class="container">
     		<div class="blurb">
