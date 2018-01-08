@@ -33,9 +33,9 @@ h1 {
     color: #FFFFFF;
 }
 p {
-    font-size: 1.5em;
+    font-size: 16px;
     line-height: 1.4em;
-    color: #333;
+    color: #000;
 }
 footer {
     border-top: 1px solid #d5d5d5
